@@ -9,6 +9,8 @@ services:
       - 5432
     ports:
       - 5432:5432
+    networks:
+      - lite-network
 
   api:
     env_file:
@@ -25,7 +27,10 @@ services:
       - 8080
     command: pipenv run ./manage.py runserver 0.0.0.0:8080
     networks:
-          - lite-api_default
+      - lite-network
 
 networks:
-  lite-api_default:
+  lite-network:
+    external: true
+
+
