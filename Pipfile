@@ -4,6 +4,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
 name = "lite-binary-wheels"
 url = "https://d2vy6p688s397g.cloudfront.net/simple/"
 verify_ssl = true
