@@ -3,6 +3,11 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
+[[source]]
+name = "lite-binary-wheels"
+url = "https://d2vy6p688s397g.cloudfront.net/simple/"
+verify_ssl = true
+
 [dev-packages]
 black = "==19.10b0"
 bandit = "~=1.6"
@@ -38,7 +43,7 @@ defusedxml = "~=0.6.0"
 xmlschema = "~=1.2.0"
 notifications-python-client = "~=5.6.0"
 dataclasses = "~=0.6"
-# endesive = "~=1.5.9" (not included here as installed in a later jenkins step. Uncomment if working locally)
+endesive = "~=1.5.9"
 pypdf2 = "~=1.26.0"
 pyOpenSSL = "~=19.1.0"
 
