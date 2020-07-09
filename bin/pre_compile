@@ -1,0 +1,5 @@
+set -Eeuo pipefail
+echo "Installing pykcs11 binary wheel from $PIP_EXTRA_INDEX_URL"
+mkdir -p "$PWD/vendor"
+pipenv lock -r | grep pykcs11 >  $PWD/vendor/requirements.txt
+python -m pip download -r $PWD/vendor/requirements.txt -d $BUILD_DIR/vendor -i $PIP_EXTRA_INDEX_URL

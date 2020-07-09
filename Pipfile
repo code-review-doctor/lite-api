@@ -8,12 +8,6 @@ name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
 
-[[source]]
-name = "lite-binary-wheels"
-url = "https://d2vy6p688s397g.cloudfront.net/simple/"
-verify_ssl = true
-
-
 [dev-packages]
 black = "==19.10b0"
 bandit = "~=1.6"
@@ -52,7 +46,7 @@ dataclasses = "~=0.6"
 endesive = "~=1.5.9"
 pypdf2 = "~=1.26.0"
 pyOpenSSL = "~=19.1.0"
-PyKCS11 = { version="~=1.5.8", index="lite-binary-wheels" }
+PyKCS11 = "~=1.5.8"
 
 [requires]
 python_version = "3.7"
