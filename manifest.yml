@@ -1,4 +1,4 @@
 applications:
   - buildpacks:
-      - python-buildpack
+      - https://github.com/uktrade/lite-python-buildpack#issue163
     timeout: 360

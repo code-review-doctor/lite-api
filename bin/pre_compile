@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-#set -Eeuo pipefail
-echo "Running.... pre_compile script. PWD is ${PWD}"
-echo "Installing pykcs11 binary wheel from $PIP_EXTRA_INDEX_URL"
-echo "Python is: `which python || echo "no python found"`"
-echo "pip is: `which pip || echo "no pip found"`"
-#python -m pip install pykcs11==1.5.8 -i "$PIP_EXTRA_INDEX_URL"
