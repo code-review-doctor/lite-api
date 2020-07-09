@@ -604,16 +604,19 @@
         },
         "pykcs11": {
             "hashes": [
-                "sha256:10b16f8e7c8373ac9652b06a9ed95724325cc7152d194a251e0c6942e8bc1e57",
-                "sha256:5a669558a6947cd6f4b002f92876825cbaf81b4a872337a5bf9d64e0031c78b1",
-                "sha256:692a8ebd9134be9d0712d8d2a1334d3c3c11f2b034c5c3f256648b6e57a67fc2",
                 "sha256:9e5665b9c44bebc44ba31f694cfa3c217850b1c59dab50ca5a42c58b6b9a6e7c",
-                "sha256:af2720c302d5a157a8047c470492b17117fe36afe4fb8ec0b7e200612fae5ca7",
-                "sha256:cb178075d4377f8d935e57ff68b0b1d5fe9f399e6bce7b0c613e5142d76a89ab",
-                "sha256:cb872e8270ed5f904ce11dbe87f927c94ce6bd3ebfc9a8919b432693757b330a",
                 "sha256:d067eb1543a30aa2f3ca1c3a364ae2e99368aaa662a45900f0d887822bc203b1",
-                "sha256:dc9db67d202ccb94b0a1adfda91f2491c2d69ab20790e0ce5447fbd5b0ea1fa1",
-                "sha256:fd41a4b3ec46d52f2ec7e51ceab036ae06dad488f725a787146bf3513ba9079a"
+                "sha256:692a8ebd9134be9d0712d8d2a1334d3c3c11f2b034c5c3f256648b6e57a67fc2",
+                "sha256:5a669558a6947cd6f4b002f92876825cbaf81b4a872337a5bf9d64e0031c78b1",
+                "sha256:cb178075d4377f8d935e57ff68b0b1d5fe9f399e6bce7b0c613e5142d76a89ab",
+                "sha256:10b16f8e7c8373ac9652b06a9ed95724325cc7152d194a251e0c6942e8bc1e57",
+                "sha256:cb872e8270ed5f904ce11dbe87f927c94ce6bd3ebfc9a8919b432693757b330a",
+                "sha256:fd41a4b3ec46d52f2ec7e51ceab036ae06dad488f725a787146bf3513ba9079a",
+                "sha256:6640a5cffd09ac34c6daa89b021a8faf898f744fcd467412f800702c8cef86bb",
+                "sha256:d8e0345108e470ae0e57e3b823d1b149c91bc63073c01fcf4058c3f6b382567d",
+                "sha256:af2720c302d5a157a8047c470492b17117fe36afe4fb8ec0b7e200612fae5ca7",
+                "sha256:4c135946485e22902c332043f7f94976ec7095d616e4cfeb4fef284ee7711db8",
+                "sha256:dc9db67d202ccb94b0a1adfda91f2491c2d69ab20790e0ce5447fbd5b0ea1fa1"
             ],
             "index": "pypi",
             "version": "==1.5.8"
