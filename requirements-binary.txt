@@ -1,0 +1,2 @@
+-i https://d2vy6p688s397g.cloudfront.net/simple/
+pykcs11==1.5.8
